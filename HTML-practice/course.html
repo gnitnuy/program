@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8"/>
+    <title>power-point</title>
+    
+</head>
+<body>
+    <h1>第一章 快捷鍵</h1>
+    <hr></hr>
+    <h2>1. 影片</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wUmUpiojrmE" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2>2. 相關補充</h2>
+    <p><div>複製貼上</div></p>
+    <details open><!--可展開頁面-->
+        <summary>保留來源格式設定與純文字貼上</summary>
+        <p>
+        <ul > 
+            <li>保留來源格式設定 : 可保留一樣的大小與字體、粗細</li>
+            <li>純文字貼上 : 利用ppt原本的格式</li>
+        </ul>
+        </p>
+    </details>
+    <p><img width="560" height="315" src="https://miro.medium.com/max/1280/1*j8SZxymGU_4DEwwweecshg.gif"/></p>
+
+    <h3>3. 課後練習</h3>
+    <form onsubmit="alert('表單送出')">
+
+        <p>題目:</p><!--文字輸入-->
+        <p><input type="text" name="name" value="你的答案" ></p>
+    
+        <label for="avatar"><p>提交作業:</p></label>
+        <input type="file" id="avatar" name="avatar"accept="image/png, image/jpeg">
+
+        <p>題目:</p>
+        <p><input type="radio" name="interest" value="ans1"> 選項1</p>
+        <p><input type="radio" name="interest" value="ans2"> 選項2</p>
+        <p><input type="radio" name="interest" value="ans3"> 選項3</p>
+
+        <p>題目:</p>
+        <label><input type="checkbox" name="answer1" value="an1">選項1</label>
+        <label><input type="checkbox" name="answer2" value="an2">選項2</label>
+        <label><input type="checkbox" name="answer3" value="an3">選項3</label>
+        <label><input type="checkbox" name="answer4" value="an4">選項4</label>
+
+        <p>心得感想:</p><!--可調整輸入框大小-->
+        <p><textarea name="comments" rows="5" cols="20">請輸入你的答案</textarea></p>
+        <p><input type="submit" value="送出資料"></p>
+    </form>
+    
+    </body>
+</html>
